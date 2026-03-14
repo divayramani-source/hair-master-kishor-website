@@ -40,7 +40,7 @@ const faqs = [
   { q: 'Is accommodation really free?', a: 'Yes! Students coming from outside Gandhinagar get free stay for the course duration. Just inform us in advance.' },
   { q: 'Will I get a certificate?', a: 'Absolutely. Every student who completes the course receives a professional certificate from Hair Master Kishor Academy.' },
   { q: 'How many seats are available?', a: 'We keep batches small for quality training. The 2nd batch has limited seats — enroll fast to secure your spot.' },
-  { q: 'How do I enroll?', a: 'Call or WhatsApp us on +91 96249 60826 or click the Enroll button on this page. We\'ll guide you through the process.' },
+  { q: 'How do I enroll?', a: 'Call or WhatsApp us on +91 96249 60905 or click the Enroll button on this page. We\'ll guide you through the process.' },
 ]
 
 export default function AcademyPage() {
@@ -83,7 +83,7 @@ export default function AcademyPage() {
               </p>
               <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
                 <Link to="/enroll" className="btn-gold" style={{ fontSize: '1rem', padding: '15px 36px' }}>🚀 Enroll Now</Link>
-                <a href="https://wa.me/919624960826?text=Hi%2C%20I%20want%20to%20know%20more%20about%20the%20Hair%20Academy" target="_blank" rel="noopener noreferrer" className="btn-outline">💬 Ask on WhatsApp</a>
+                <a href="https://wa.me/919624960905?text=Hi%2C%20I%20want%20to%20know%20more%20about%20the%20Hair%20Academy" target="_blank" rel="noopener noreferrer" className="btn-outline">💬 Ask on WhatsApp</a>
               </div>
             </Anim>
 

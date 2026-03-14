@@ -537,8 +537,8 @@ export default function HomePage() {
               Walk in or book an appointment — we're open 8:30 AM to 8:30 PM, seven days a week. Your transformation starts here.
             </p>
             <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
-              <a href="tel:+919624960826" className="btn-gold">📞 Call Now</a>
-              <a href="https://wa.me/919624960826" target="_blank" rel="noopener noreferrer" className="btn-outline">💬 WhatsApp</a>
+              <a href="tel:+919624960905" className="btn-gold">📞 Call Now</a>
+              <a href="https://wa.me/919624960905" target="_blank" rel="noopener noreferrer" className="btn-outline">💬 WhatsApp</a>
             </div>
           </div>
         </AnimatedSection>

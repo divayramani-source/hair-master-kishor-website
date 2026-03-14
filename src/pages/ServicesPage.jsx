@@ -180,7 +180,7 @@ export default function ServicesPage() {
               <p style={{ color: '#aaa', fontSize: '0.875rem', lineHeight: 1.7, flex: 1, minWidth: '200px' }}>
                 <strong style={{ color: '#D4AF37' }}>Prices may vary</strong> based on hair length, product used, and customization. All prices are starting rates. Please call or WhatsApp for exact pricing and to book your appointment.
               </p>
-              <a href="tel:+919624960826" className="btn-gold" style={{ flexShrink: 0 }}>📞 Book Now</a>
+              <a href="tel:+919624960905" className="btn-gold" style={{ flexShrink: 0 }}>📞 Book Now</a>
             </div>
           </Anim>
         </div>
@@ -220,7 +220,7 @@ export default function ServicesPage() {
           <h2 className="section-title" style={{ marginBottom: '1rem' }}>Ready to Look <span className="shimmer-text">Amazing?</span></h2>
           <p style={{ color: '#888', marginBottom: '2rem', lineHeight: 1.8 }}>Walk in anytime or book in advance. We're open 7 days a week.</p>
           <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
-            <a href="https://wa.me/919624960826?text=Hi%2C%20I%20want%20to%20book%20an%20appointment" target="_blank" rel="noopener noreferrer" className="btn-gold">💬 WhatsApp to Book</a>
+            <a href="https://wa.me/919624960905?text=Hi%2C%20I%20want%20to%20book%20an%20appointment" target="_blank" rel="noopener noreferrer" className="btn-gold">💬 WhatsApp to Book</a>
             <Link to="/gallery" className="btn-outline">View Our Work</Link>
           </div>
         </Anim>

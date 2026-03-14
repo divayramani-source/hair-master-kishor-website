@@ -82,7 +82,7 @@ export default function Footer() {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
               {[
                 { icon: '📍', text: '1st Floor, Elixir Prime Business, 120, PDPU Rd, Raysan, Gandhinagar, Gujarat 382007' },
-                { icon: '📞', text: '+91 96249 60826' },
+                { icon: '📞', text: '+91 96249 60905' },
                 { icon: '🕐', text: 'Open: 8:30 AM – 8:30 PM' },
                 { icon: '📸', text: '@hair_master_kishor' },
               ].map((c, i) => (

@@ -75,7 +75,7 @@ function EnrollForm() {
   const handleSubmit = (e) => {
     e.preventDefault()
     const text = `🎓 New Enrollment Request!\n\n👤 Name: ${form.name}\n📞 Phone: ${form.phone}\n📍 City: ${form.city}\n💬 Message: ${form.message || 'N/A'}\n\n✂️ Hair Master Kishor Academy – 2nd Batch`
-    window.open(`https://wa.me/919624960826?text=${encodeURIComponent(text)}`, '_blank')
+    window.open(`https://wa.me/919624960905?text=${encodeURIComponent(text)}`, '_blank')
     setSubmitted(true)
   }
 
@@ -247,7 +247,7 @@ export default function EnrollPage() {
               <a href="#enroll-form" className="btn-gold" style={{ fontSize: '1.05rem', padding: '16px 40px' }}>
                 🎓 Enroll Now — Scroll Down
               </a>
-              <a href="https://wa.me/919624960826?text=Hi%2C%20I%20want%20to%20enroll%20in%20the%202nd%20batch!" target="_blank" rel="noopener noreferrer" className="btn-outline">
+              <a href="https://wa.me/919624960905?text=Hi%2C%20I%20want%20to%20enroll%20in%20the%202nd%20batch!" target="_blank" rel="noopener noreferrer" className="btn-outline">
                 💬 WhatsApp Directly
               </a>
             </div>
@@ -367,17 +367,17 @@ export default function EnrollPage() {
                     📞 Contact Directly
                   </h3>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-                    <a href="tel:+919624960826" style={{ display: 'flex', alignItems: 'center', gap: '12px', textDecoration: 'none', color: '#fff', transition: 'color 0.2s' }}
+                    <a href="tel:+919624960905" style={{ display: 'flex', alignItems: 'center', gap: '12px', textDecoration: 'none', color: '#fff', transition: 'color 0.2s' }}
                       onMouseEnter={e => e.currentTarget.style.color = '#D4AF37'}
                       onMouseLeave={e => e.currentTarget.style.color = '#fff'}
                     >
                       <span style={{ fontSize: '1.5rem' }}>📞</span>
                       <div>
                         <div style={{ fontWeight: 700, fontSize: '0.9rem' }}>Call Us</div>
-                        <div style={{ color: '#888', fontSize: '0.8rem' }}>+91 96249 60826</div>
+                        <div style={{ color: '#888', fontSize: '0.8rem' }}>+91 96249 60905</div>
                       </div>
                     </a>
-                    <a href="https://wa.me/919624960826?text=Hi%20I%20want%20to%20enroll%20in%20your%202nd%20batch!" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '12px', textDecoration: 'none', color: '#fff', transition: 'color 0.2s' }}
+                    <a href="https://wa.me/919624960905?text=Hi%20I%20want%20to%20enroll%20in%20your%202nd%20batch!" target="_blank" rel="noopener noreferrer" style={{ display: 'flex', alignItems: 'center', gap: '12px', textDecoration: 'none', color: '#fff', transition: 'color 0.2s' }}
                       onMouseEnter={e => e.currentTarget.style.color = '#25D366'}
                       onMouseLeave={e => e.currentTarget.style.color = '#fff'}
                     >

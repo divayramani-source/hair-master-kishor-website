@@ -25,7 +25,7 @@ function BookingForm() {
   const handleSubmit = (e) => {
     e.preventDefault()
     const text = `💈 Appointment Request!\n\n👤 Name: ${form.name}\n📞 Phone: ${form.phone}\n✂️ Service: ${form.service}\n📅 Preferred Date: ${form.date || 'Flexible'}\n💬 Notes: ${form.notes || 'None'}\n\n📍 Hair Master Kishor – Gandhinagar`
-    window.open(`https://wa.me/919624960826?text=${encodeURIComponent(text)}`, '_blank')
+    window.open(`https://wa.me/919624960905?text=${encodeURIComponent(text)}`, '_blank')
     setSubmitted(true)
   }
 
@@ -90,8 +90,8 @@ export default function ContactPage() {
       <section style={{ padding: '0 40px 60px', background: '#0a0a0a' }}>
         <div style={{ maxWidth: '900px', margin: '0 auto', display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
           {[
-            { icon: '📞', label: 'Call Now', sub: '+91 96249 60826', href: 'tel:+919624960826', color: '#D4AF37' },
-            { icon: '💬', label: 'WhatsApp', sub: 'Chat instantly', href: 'https://wa.me/919624960826', color: '#25D366' },
+            { icon: '📞', label: 'Call Now', sub: '+91 96249 60905', href: 'tel:+919624960905', color: '#D4AF37' },
+            { icon: '💬', label: 'WhatsApp', sub: 'Chat instantly', href: 'https://wa.me/919624960905', color: '#25D366' },
             { icon: '📸', label: 'Instagram', sub: '@hair_master_kishor', href: 'https://www.instagram.com/hair_master_kishor/', color: '#E1306C' },
           ].map((c, i) => (
             <Anim key={i} delay={i * 0.1}>
