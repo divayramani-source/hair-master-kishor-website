@@ -105,7 +105,7 @@ export default function HomePage() {
         {/* Background image with parallax */}
         <div style={{
           position: 'absolute', inset: 0,
-          backgroundImage: 'url(/images/salon-2.jpg)',
+          backgroundImage: 'url(/images/background-img.jpeg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           transform: `translate(${mousePos.x * -15}px, ${mousePos.y * -15}px) scale(1.06)`,
