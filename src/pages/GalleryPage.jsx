@@ -28,6 +28,12 @@ const galleryItems = [
   { type: 'image', src: '/images/salon-3.jpg', title: 'Groom Styling', category: 'men' },
   { type: 'video', src: '/images/video-1.mp4', title: 'Fade Tutorial', category: 'video', thumb: '/images/salon-1.jpg' },
   { type: 'video', src: '/images/video-2.mp4', title: 'Styling in Action', category: 'video', thumb: '/images/salon-2.jpg' },
+  { type: 'image', src: '/images/WhatsAppimg5.jpeg', title: 'Modern Haircut', category: 'men' },
+  { type: 'image', src: '/images/WhatsAppimg4.jpeg', title: 'Modern Haircut', category: 'men' },
+  { type: 'image', src: '/images/WhatsAppimg3.jpeg', title: 'Modern Haircut', category: 'men' },
+  { type: 'image', src: '/images/WhatsApp-Image-1.jpeg', title: 'Modern Haircut', category: 'men' },
+  { type: 'image', src: '/images/WhatsApp-Image-2.jpeg', title: 'Modern Haircut', category: 'men' },
+  { type: 'video', src: '/images/WhatsApp-Vid-1.mp4', title: 'Styling in Action', category: 'video', thumb: '/images/salon-2.jpg' },
 ]
 
 const filters = [
