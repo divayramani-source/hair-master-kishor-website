@@ -22,12 +22,12 @@ const categories = [
     icon: '💈',
     color: '#D4AF37',
     services: [
-      { name: 'Classic Haircut', price: '₹60', time: '20 min', desc: 'Precision cut styled to your preference.' },
-      { name: 'Modern Fade Cut', price: '₹80', time: '25 min', desc: 'Sharp, clean fade from skin to length.' },
-      { name: 'Skin Fade', price: '₹100', time: '30 min', desc: 'Razored skin fade for the sharpest look.' },
-      { name: 'Beard Trim & Shape', price: '₹50', time: '15 min', desc: 'Line up, shape, and trim your beard.' },
-      { name: 'Hair + Beard Combo', price: '₹130', time: '45 min', desc: 'Complete grooming package for men.' },
-      { name: 'Head Shave', price: '₹60', time: '20 min', desc: 'Clean, smooth head shave with razor finish.' },
+      { name: 'Classic Haircut', time: '20 min', desc: 'Precision cut styled to your preference.' },
+      { name: 'Modern Fade Cut', time: '25 min', desc: 'Sharp, clean fade from skin to length.' },
+      { name: 'Skin Fade', time: '30 min', desc: 'Razored skin fade for the sharpest look.' },
+      { name: 'Beard Trim & Shape', time: '15 min', desc: 'Line up, shape, and trim your beard.' },
+      { name: 'Hair + Beard Combo', time: '45 min', desc: 'Complete grooming package for men.' },
+      { name: 'Head Shave', time: '20 min', desc: 'Clean, smooth head shave with razor finish.' },
     ]
   },
   {
