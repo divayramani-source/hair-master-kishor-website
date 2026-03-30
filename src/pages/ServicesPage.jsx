@@ -35,12 +35,12 @@ const categories = [
     icon: '💇‍♀️',
     color: '#e879a0',
     services: [
-      { name: 'Haircut with Wash', price: '₹150', time: '40 min', desc: 'Expert cut styled to your face shape.' },
-      { name: 'Blow Dry & Style', price: '₹200', time: '45 min', desc: 'Voluminous blow-out or sleek finish.' },
-      { name: 'Deep Conditioning', price: '₹300', time: '60 min', desc: 'Restore shine, softness & health.' },
+      { name: 'Haircut with Wash', time: '40 min', desc: 'Expert cut styled to your face shape.' },
+      { name: 'Blow Dry & Style', time: '45 min', desc: 'Voluminous blow-out or sleek finish.' },
+      { name: 'Deep Conditioning', time: '60 min', desc: 'Restore shine, softness & health.' },
       { name: 'Bridal Hair', price: 'On request', time: '90+ min', desc: 'Look stunning on your special day.' },
       { name: 'Keratin Treatment', price: 'On request', time: '120 min', desc: 'Smooth, frizz-free hair for months.' },
-      { name: 'Henna Treatment', price: '₹400', time: '60 min', desc: 'Natural strengthening & color.' },
+      { name: 'Henna Treatment', time: '60 min', desc: 'Natural strengthening & color.' },
     ]
   },
   {
@@ -48,12 +48,12 @@ const categories = [
     icon: '🎨',
     color: '#a78bfa',
     services: [
-      { name: 'Global Color', price: '₹800+', time: '90 min', desc: 'Full head single-color transformation.' },
-      { name: 'Highlights', price: '₹1200+', time: '120 min', desc: 'Foil or freehand highlights.' },
-      { name: 'Balayage', price: '₹2000+', time: '150 min', desc: 'Hand-painted natural gradient look.' },
-      { name: 'Ombre / Sombre', price: '₹1500+', time: '120 min', desc: 'Seamless dark-to-light fade.' },
-      { name: 'Fashion Colors', price: '₹2500+', time: '180 min', desc: 'Bold: red, blue, platinum & more.' },
-      { name: 'Root Touch-Up', price: '₹600+', time: '60 min', desc: 'Seamless regrowth blending.' },
+      { name: 'Global Color', time: '90 min', desc: 'Full head single-color transformation.' },
+      { name: 'Highlights', time: '120 min', desc: 'Foil or freehand highlights.' },
+      { name: 'Balayage', time: '150 min', desc: 'Hand-painted natural gradient look.' },
+      { name: 'Ombre / Sombre', time: '120 min', desc: 'Seamless dark-to-light fade.' },
+      { name: 'Fashion Colors', time: '180 min', desc: 'Bold: red, blue, platinum & more.' },
+      { name: 'Root Touch-Up', time: '60 min', desc: 'Seamless regrowth blending.' },
     ]
   },
   {
@@ -61,12 +61,12 @@ const categories = [
     icon: '✨',
     color: '#34d399',
     services: [
-      { name: 'Hair Spa', price: '₹500', time: '60 min', desc: 'Deep nourishment & scalp massage.' },
-      { name: 'Scalp Treatment', price: '₹400', time: '45 min', desc: 'Target dandruff, dryness & hair fall.' },
-      { name: 'Protein Treatment', price: '₹800', time: '75 min', desc: 'Rebuild strength and reduce breakage.' },
-      { name: 'Steam Treatment', price: '₹300', time: '30 min', desc: 'Opens cuticles for deep penetration.' },
-      { name: 'Oiling Massage', price: '₹200', time: '20 min', desc: 'Relaxing hot oil head massage.' },
-      { name: 'Dandruff Control', price: '₹350', time: '45 min', desc: 'Medicated treatment for healthy scalp.' },
+      { name: 'Hair Spa', time: '60 min', desc: 'Deep nourishment & scalp massage.' },
+      { name: 'Scalp Treatment', time: '45 min', desc: 'Target dandruff, dryness & hair fall.' },
+      { name: 'Protein Treatment', time: '75 min', desc: 'Rebuild strength and reduce breakage.' },
+      { name: 'Steam Treatment', time: '30 min', desc: 'Opens cuticles for deep penetration.' },
+      { name: 'Oiling Massage', time: '20 min', desc: 'Relaxing hot oil head massage.' },
+      { name: 'Dandruff Control', time: '45 min', desc: 'Medicated treatment for healthy scalp.' },
     ]
   },
 ]
