@@ -29,7 +29,7 @@ function AnimatedSection({ children, delay = 0 }) {
 
 const stats = [
   { number: '500+', label: 'Happy Clients' },
-  { number: '22+', label: 'Years Experience' },
+  { number: '20+', label: 'Years Experience' },
   { number: '50+', label: 'Students Trained' },
   { number: '4.9★', label: 'Average Rating' },
 ]
