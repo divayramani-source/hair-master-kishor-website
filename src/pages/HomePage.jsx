@@ -74,7 +74,7 @@ export default function HomePage() {
 
   useEffect(() => {
     if (!statsVisible) return
-    const targets = [500, 8, 50, 4.9]
+    const targets = [500, 20, 50, 4.9]
     const duration = 1500
     const steps = 60
     let step = 0
@@ -88,7 +88,7 @@ export default function HomePage() {
 
   const statDisplay = (val, i) => {
     if (i === 3) return `${Math.min(val, 4.9).toFixed(1)}★`
-    return `${Math.floor(Math.min(val, [500, 8, 50][i]))}+`
+    return `${Math.floor(Math.min(val, [500, 20, 50][i]))}+`
   }
 
   return (
